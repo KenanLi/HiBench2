@@ -15,3 +15,4 @@ wget --no-check-certificate https://raw.githubusercontent.com/KenanLi/HiBench2/m
 mv ~/hibench-config.sh ~/HiBench/bin/
 yes | sudo yum install zsh
 wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+/bin/zsh
