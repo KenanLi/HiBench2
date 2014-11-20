@@ -10,5 +10,7 @@ export PATH=$M2:$PATH
 git clone https://github.com/intel-hadoop/HiBench.git
 #curl -L http://install.ohmyz.sh | sh
 yes | sudo yum install zsh
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 wget --no-check-certificate https://raw.githubusercontent.com/KenanLi/HiBench2/master/hibench-config.sh
-chsh -s `which zsh`
+#chsh -s `which zsh`
+mv ~/hibench-config.sh ~/HiBench/bin/
