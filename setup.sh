@@ -9,3 +9,4 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 git clone https://github.com/intel-hadoop/HiBench.git
 curl -L http://install.ohmyz.sh | sh
+wget --no-check-certificate https://raw.githubusercontent.com/KenanLi/HiBench2/master/hibench-config.sh
