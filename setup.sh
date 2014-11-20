@@ -8,5 +8,7 @@ export M2_HOME=~/maven/apache-maven-3.0.5
 export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 git clone https://github.com/intel-hadoop/HiBench.git
-curl -L http://install.ohmyz.sh | sh
+#curl -L http://install.ohmyz.sh | sh
+yes | sudo yum install zsh
 wget --no-check-certificate https://raw.githubusercontent.com/KenanLi/HiBench2/master/hibench-config.sh
+chsh -s `which zsh`
